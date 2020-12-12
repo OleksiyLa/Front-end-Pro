@@ -19,11 +19,6 @@ const ob2 = { z: 30 };
 console.log(assignObjects(ob1, ob2));
 console.log(assignObjects({ x: 10 }, { x: 20, y: 30 }));
 
-
-
-
-
-
 // function copyObj(obj, objToReturn = {}) {
 //     for (key in obj) {
 //         if (typeof obj[key] !== 'object') {

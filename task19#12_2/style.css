@@ -1,0 +1,19 @@
+body,
+html {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background: grey;
+}
+#box {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  top: calc(50% - 50px);
+  left: calc(50% - 50px);
+  background: red;
+  color: #fff;
+  display: grid;
+  place-items: center;
+  transition: 0.1s;
+}

@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+#block {
+  width: 40px;
+  height: 108px;
+  border: 2px #000 solid;
+  color: #fff;
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 0 auto;
+}
+.inputs {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.bar {
+  background: green;
+  border-top: 0 solid red;
+  width: 100%;
+  height: 0px;
+}
+.block-result {
+  position: fixed;
+  left: 44%;
+  top: 20%;
+}

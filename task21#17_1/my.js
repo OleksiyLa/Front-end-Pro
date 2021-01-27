@@ -78,14 +78,14 @@ window.addEventListener('load', function() {
     "https://i.pinimg.com/originals/d8/55/9f/d8559f57d2cfcc8db35f032b424f1fe8.gif",
     "https://camo.githubusercontent.com/a0d58634789b846466557b4c210c1638560a4bd4457161899e026ce7345bb288/687474703a2f2f32352e6d656469612e74756d626c722e636f6d2f63393961353739646233616530666331363462663463636131343838383564332f74756d626c725f6d6a6776386b45754d67317338376e37396f315f3430302e676966",
     "https://i.gifer.com/WME8.gif"];
-    let contextElement = document.querySelector('.doc');
-    let contextElementOnChar = document.querySelector('.hero');
-    let contextJump = document.querySelector('#jump');
-    let contextMoveLeft = document.querySelector('#move-left');
-    let contextMoveRight = document.querySelector('#move-right');
-    let changeImage = document.querySelector('#change-image');
-    let resetPosition = document.querySelector('#reset');
-    let addRemove = document.querySelector('#add-remove');
+    const contextElement = document.querySelector('.doc');
+    const contextElementOnChar = document.querySelector('.hero');
+    const contextJump = document.querySelector('#jump');
+    const contextMoveLeft = document.querySelector('#move-left');
+    const contextMoveRight = document.querySelector('#move-right');
+    const changeImage = document.querySelector('#change-image');
+    const resetPosition = document.querySelector('#reset');
+    const addRemove = document.querySelector('#add-remove');
     let imgNum = imgSources.length;
     let counter = 0;
 

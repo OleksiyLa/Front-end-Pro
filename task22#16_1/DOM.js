@@ -48,9 +48,7 @@ class Cart {
         });
         this.clearAllButton.addEventListener('click', this.clearAll);
         this.currencySelect.addEventListener('change', function () {
-        this.value == 'usd' ? that.usdBool = true : that.usdBool = false;
-        this.value == 'euro' ? that.euroBool = true : that.euroBool = false;
-        this.value == 'uah' ? that.uahBool = true : that.uahBool = false;
+        that.currencyBool.call(that);
         that.totalContainer.innerHTML = that.currencyAdjustment(localStorage.getItem('total'));
         });
         
@@ -158,11 +156,18 @@ class Cart {
             return total + '&#8372;';
         }
     }
+    currencyBool = () => {
+        let selectedCurrency = document.querySelector("#currency");
+        selectedCurrency.value == 'usd' ? this.usdBool = true : this.usdBool = false;
+        selectedCurrency.value == 'euro' ? this.euroBool = true : this.euroBool = false;
+        selectedCurrency.value == 'uah' ? this.uahBool = true : this.uahBool = false;
+    }
     clearAll = () =>{
         this.totalContainer.innerHTML = '0';
         this.cartProduct.innerHTML = '';
         this.products.map(item => item.counter = 0);
         localStorage.clear();
+        this.currencyBool();
     }
 }
 

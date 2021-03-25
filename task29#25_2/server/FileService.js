@@ -98,7 +98,7 @@ function getData(){
         filenames.forEach((file) => {
             fs.readFile(__dirname + "./../logs/" + file, "utf8", (err, data) => {
             const { birthtime } = fs.statSync(__dirname + "./../logs/" + file)
-            dataObj[birthtime] = JSON.parse(decrypt(data,password));
+            dataObj[file + ' ' + birthtime] = JSON.parse(decrypt(data,password));
             i++;
             if(i === filenames.length) {
                 resolve(dataObj);

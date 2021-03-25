@@ -1,0 +1,191 @@
+{
+	"array1": [
+		134,
+		"dewf"
+	],
+	"array2": [
+		134,
+		"gogo",
+		true,
+		false
+	],
+	"array3": [
+		132334,
+		"gogo",
+		true,
+		false
+	],
+	"array4": [
+		132334,
+		"gogo",
+		true,
+		false,
+		"fevwer"
+	],
+	"array5": [
+		true,
+		false,
+		"fevwer"
+	],
+	"array6": [
+		true,
+		false,
+		"fevwer"
+	],
+	"array7": [
+		5,
+		false,
+		"fevwer"
+	],
+	"array8": [
+		5,
+		false,
+		"fevwer",
+		435,
+		"Alex"
+	],
+	"array9": [
+		5,
+		false,
+		"fevwer",
+		435,
+		"Alex",
+		333
+	],
+	"array10": [
+		5,
+		false,
+		"fevwer",
+		435,
+		"Alex",
+		333
+	],
+	"array11": [
+		5,
+		"false",
+		"fevwer",
+		435,
+		"Alex",
+		333
+	],
+	"array12": [
+		5,
+		"false",
+		"go",
+		435,
+		"Alex",
+		333
+	],
+	"array13": [
+		5,
+		"false",
+		"go",
+		435,
+		"Alex",
+		333
+	],
+	"array14": [
+		5,
+		"false",
+		"ELENA",
+		435,
+		"Alex",
+		333
+	],
+	"array15": [
+		5,
+		"false",
+		"Sveta",
+		435,
+		"Alex",
+		333
+	],
+	"array16": [
+		5,
+		"false",
+		"Sveta",
+		435,
+		"Alex",
+		333,
+		"million"
+	],
+	"array17": [
+		5,
+		"false",
+		"Sveta",
+		435,
+		"Alex",
+		333,
+		"million"
+	],
+	"array18": [
+		5,
+		"false",
+		"Sveta",
+		435,
+		"Alex",
+		333,
+		"million",
+		"billion"
+	],
+	"array19": [
+		true
+	],
+	"array20": [
+		true,
+		"Unique",
+		"Uniqu1e",
+		"Unique"
+	],
+	"array21": [
+		" Truly unique"
+	],
+	"array22": [
+		213,
+		21323,
+		235325
+	],
+	"array23": [
+		213,
+		21323,
+		"Aarry23"
+	],
+	"array24": [
+		213,
+		21323,
+		"Aarry23"
+	],
+	"array25": [
+		213,
+		21323,
+		"Aarry23"
+	],
+	"array26": [
+		213,
+		21323,
+		"Aarry23",
+		"encrypt"
+	],
+	"array27": [
+		213,
+		21323,
+		"Aarry23",
+		"encrypt",
+		"Working"
+	],
+	"array28": [
+		213,
+		21323,
+		"Aarry23",
+		"encrypt",
+		"Go"
+	],
+	"array29": [
+		213,
+		21323,
+		"Aarry23",
+		"encrypt",
+		"Go",
+		"Random"
+	]
+}

@@ -6,8 +6,10 @@ const app = express();
 const port = 7070;
 
 app.use(bodyParser.json());
-app.use(bodyParser.text())
+app.use(bodyParser.text());
+app.use(express.static(__dirname + './../'));
 app.all('*', APIService.createFiles)
+
 
 app.post('/data/update', APIService.addArray);
 app.get('/data/status-check', APIService.getStatData);

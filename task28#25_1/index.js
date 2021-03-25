@@ -1,6 +1,5 @@
 window.addEventListener('load',()=>{
     const statusCheck = document.querySelector('#status-check');
-    const dataGet = document.querySelector('#data-get');
     getData(statusCheck, '/data/status-check')
 })
 

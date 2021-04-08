@@ -1,0 +1,12 @@
+body {
+  background: blue;
+}
+.App {
+  color: white;
+}
+
+.table {
+  margin: 100px auto;
+  width: 50%;
+  text-align: center;
+}

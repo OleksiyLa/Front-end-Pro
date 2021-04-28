@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+.CustomDivElem {
+  position: fixed;
+  transition: 0.8s;
+}
+button {
+  font-size: 20px;
+  padding: 10px;
+  width: 50%;
+  /* background: blanchedalmond; */
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+.pop-up_line {
+  border: 1px solid white;
+  width: 100%;
+  z-index: 99;
+  background: black;
+  color: white;
+}
+.pop-up {
+  position: fixed;
+  border: 2px solid black;
+}
+input {
+  padding: 5px;
+}
